@@ -1,6 +1,5 @@
-* {
+ * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -12,19 +11,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.titulo {
-
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .container-conteudo{
     display: flex;
-    border: 3px solid black;
+    border: 3px solid rgb(175, 75, 75);
     height: 100px;
     width: auto;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 250px;
 }
 
 .menu-opcoes {
@@ -42,4 +39,37 @@ a {
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+}
+
+.imagem {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+} 
+
+ol {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(175, 75, 75);
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    color: white;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
